@@ -15,6 +15,11 @@ for(item of btn){
             case "=":
                 screen.value = eval(screen.value);
                 break;
+                case "x":
+                buttonText = '*';
+                screen.value += buttonText;
+                // screen.value = screenValue;
+                break;
             default:
                 screen.value += buttonText;
         }
